@@ -1,0 +1,24 @@
+/* inicio de aplicación splash ====================================================================== */
+#splash{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+#splash img{
+    position: absolute;
+    width: 90%;
+    top: 35%;
+    left: 6%;
+}
+/* Sign up Log in ====================================================================== */
+.logo-registry{
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.logo-registry-2{
+    width: 70%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+} 
