@@ -2,7 +2,9 @@
 	margin:0;
 	padding: 0;
 }
-
+body{
+	background-color:#fff8e1 ;
+}
 .brand-logo img{
 	width: 5em;
 }
@@ -17,13 +19,14 @@
 .icono{
 	width: 3em;
 	height: 3em;
-	padding: 0.3em;
+	margin-left: 1em;
 }
 .fa-user{
 margin:0.3em;
 }
 .item{
 	font-size: 2em;
+	margin-left: 1em;
 }
 
 .fa-gripfire{
@@ -31,9 +34,14 @@ margin:0.3em;
 color:#ffd600; 
 }
 .fa-puzzle-piece{
-margin:0.3em;
+margin:0.2em;
 color:#01579b;
 }
-.juegos{
-	background-color:#fff8e1 ;
+
+.vid-2{
+margin-top:3em; 
+}
+
+.list{
+	padding-left:3em;
 }
