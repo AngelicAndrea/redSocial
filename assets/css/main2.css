@@ -3,17 +3,37 @@
 	padding: 0;
 }
 
-img{
+.brand-logo img{
 	width: 5em;
 }
 .txt{
 	font-size: 1.5em;
+	color:#03756F;
 }
-.circulo {
-     width: 100px;
-     height: 100px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     background: #5cb85c;
+.user{
+	width: 40px;
+	height: 40px;
+}
+.icono{
+	width: 3em;
+	height: 3em;
+	padding: 0.3em;
+}
+.fa-user{
+margin:0.3em;
+}
+.item{
+	font-size: 2em;
+}
+
+.fa-gripfire{
+margin:0.3em;
+color:#ffd600; 
+}
+.fa-puzzle-piece{
+margin:0.3em;
+color:#01579b;
+}
+.juegos{
+	background-color:#fff8e1 ;
 }

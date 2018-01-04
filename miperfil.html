@@ -1,94 +1,104 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/main2.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Senior Game</title>
-    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Senior Game</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+	<link rel="stylesheet" href="assets/css/main2.css">
+
 </head>
 <body>
 	<section class="first">
 		<div class="row">
 			<div class="col s12">
 				<nav>
-          <div class="nav-wrapper orange accent-1">
-            <a href="#" class="brand-logo"><img src="assets/images/logo-transparente-01.png"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a class=" txt black-text" href="sass.html">Mi Perfil</a></li>
-              <li><a class=" txt black-text" href="sass.html ">Amigos</a></li>
-              <li><a  class="txt  black-text" href="badges.html">Mis Juegos</a></li>
-              <li><a class=" txt black-text" href="collapsible.html">Cerrar Sesion</a></li>
-            </ul>
-          </div>
-        </nav>
+					<div class="nav-wrapper orange accent-1">
+						<a href="#" class="brand-logo"><img src="assets/images/logo-transparente-01.png"></a>
+						<ul id="nav-mobile" class="right hide-on-med-and-down">
+							<li><a class=" txt" href="#">Mi Perfil</a></li>
+							<li><a class=" txt" href="#">Amigos</a></li>
+							<li><a  class="txt" href="#">Mis Juegos</a></li>
+							<li><a class="txt" href="#">Cerrar Sesion</a></li>
+						</ul>
+					</div>
+				</nav>
 			</div>
 		</div>
-	
+
 	</section>
-	
-<div class="row">
-	<div class="col s6 m7">
-	    <div class="card horizontal">
-	        <img class="responsive-img circle" src="https://lorempixel.com/100/190/nature/6">
-	     
-	      <div class="card-stacked">
-	        <div class="card-content">
-			    <form class="col s12">
-			      <div class="row">
-			        <div class="input-field col s12">
-			          <textarea id="textarea1" class="materialize-textarea"></textarea>
-			          <label for="textarea1">¿Que estas pensando?</label>
-			        </div>
-			      </div>
-			    </form>
+
+	<section class="second">
+		<div class="row">
+			<div class="col s6 m7">
+				<div class="card horizontal">
+				  <i class="fas fa-user fa-6x orange-text"></i>
+					<div class="card-stacked">
+						<div class="card-content">
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s12">
+										<textarea id="textarea1" class="materialize-textarea"></textarea>
+										<label for="textarea1">¿Que estas pensando?</label>
+										 <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
+										 <button class="btn waves-effect waves-light" type="submit" name="action">Foto</button>
+        
+
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
 			</div>
-			      
-	      </div>
-	    </div>
-    </div>
 
-	<div class="col s6 m5">
-		  	<ul>
-  		<li><i class="fab fa-gripfire fa-3x"></i>
-  		</li><p>Juegos Mas Populares</p>
-  		<li><img src="assets/images/dados.png">
-  			<p>Juegos de Casino</p></li>
-  		<li><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i>
-  			<p>Juegos de Rompecabezas</p></li>
-
-  	</ul>
-  	
-	</div>
-
-</div>     
+			<div class="juegos col s6 m5">
+				<ul>
+					<li><i class="fab fa-gripfire fa-3x"></i><a class="item" href="http://playzool.com/">Juegos Mas Populares</a></li>
+					<li><img class="icono" src="assets/images/dados.png"><a class="item" href="http://playzool.com/">Juegos de Casino</a></li>
+					<li><i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i><a class="item" href="http://playzool.com/">Juegos de Rompecabezas</a></li>
+					<li><img class="icono" src="assets/images/dados.png"><a class="item" href="http://playzool.com/">Juegos de Casino</a></li>
+					<li><img class="icono" src="assets/images/sudoku.png"></i><a class="item" href="http://playzool.com/">Juegos de Sudoku</a></li>
+					<li><img class="icono" src="assets/images/solitario.png"></i><a class="item" href="">Juegos de Cartas</a></li>
+					<li><img class="icono" src="assets/images/brain.png"></i><a class="item" href="http://playzool.com/">Juegos mentales</a></li>
+				</ul>																
+			</div>
+		</div>     
+	</section>
+												
+	<section class="videos">
+	<div class="row">
+	<div class="col s12">
+		
+  <video class="responsive-video" controls>
+    <source src="https://youtu.be/eCZGfE9oQ84" type="video/mp4">
+  </video>
+        
+        
+  </div>
+  </div>
+        
 	</section>
 
-	<!--div class="search-wrapper card focused"><i class="fa fa-search" aria-hidden="true"></i>
-            <input id="search" placeholder="search">
-            <div class="search-results"></div>
-				</div-->
 
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+        <!-- <script>      
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyCuT2s4oJcp4P4CJf2FkLs4uKhshMCab4A",
-        authDomain: "redsocial-1.firebaseapp.com",
-        databaseURL: "https://redsocial-1.firebaseio.com",
-        projectId: "redsocial-1",
-        storageBucket: "redsocial-1.appspot.com",
-        messagingSenderId: "867360204179"
+    	apiKey: "AIzaSyCuT2s4oJcp4P4CJf2FkLs4uKhshMCab4A",
+    	authDomain: "redsocial-1.firebaseapp.com",
+    	databaseURL: "https://redsocial-1.firebaseio.com",
+    	projectId: "redsocial-1",
+    	storageBucket: "redsocial-1.appspot.com",
+    	messagingSenderId: "867360204179"
     };
-    firebase.initializeApp(config);
-    </script>
+    firebase.initializeApp(config);-->
+</script>
 </body>
 </html>
