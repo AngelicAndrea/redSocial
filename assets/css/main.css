@@ -25,3 +25,13 @@
 #sign-up{
     display: none;
 }
+/* html juegos  ====================================================================== */
+
+.img-logo{
+    width: 10%;
+    margin-top: 0,5%;
+    margin-left: 3%;
+}
+#menu{
+    padding: 0;
+}
