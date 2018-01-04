@@ -51,8 +51,8 @@ $("#log-in-btn").click(function() {
 firebase.auth().onAuthStateChanged(function(user) { //si la sesión está inicida se redirecciona al perfil
 
     if (user) {
-        var url = "https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_attr_set";
-        $(location).attr("href",url);
+        var html = "miperfil.html";
+        $(location).attr("href",html);
         
     } 
   });
