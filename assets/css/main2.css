@@ -45,3 +45,12 @@ margin-top:3em;
 .list{
 	padding-left:3em;
 }
+.title{
+	background-image: url("../images/barra_juegos_online.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vh;
+}
+.games{
+	width: 6em;
+}
