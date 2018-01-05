@@ -97,7 +97,7 @@ margin-top:3em;
 #first{
      width: 100%;
 }
-.collection{
+.collect-1{
      width: 100%;
      margin-left: 45%;
 }
@@ -126,6 +126,9 @@ margin-top:3em;
 .card-action{
      height: 30%;
 }
+.gamess{
+     width: 100%;
+}
 .my-g{
      font-weight: bold;    
      text-shadow:1px 1px 1px #000;
@@ -150,5 +153,7 @@ margin-top:3em;
 .click{
      color: #000;
      background-color: #fff;
-
+}
+.more{
+     display: inline-block;
 }
