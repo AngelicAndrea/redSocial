@@ -53,4 +53,28 @@ margin-top:3em;
 }
 .games{
 	width: 6em;
+}	
+.juegos{
+	background-color:#fff8e1 ;
+}
+/* Icono usuario ============================================================================================ */
+#icon-perfil{
+	width: 0.5em;
+	padding: 0;
+	margin: 0;
+	margin-left: 5%;
+}
+.name{
+	display: inline-block;
+	position: absolute;
+	bottom: 45%;
+	left: 8%;
+	font-weight: bold;
+	color: #093136;
+}
+.post{
+	margin-left: 5%;
+}
+.img-game{
+	margin-left: 5%;
 }

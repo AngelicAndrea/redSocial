@@ -61,7 +61,31 @@ firebase.auth().onAuthStateChanged(function(user) { //si la sesión está inicid
 /*$("#logout").click(function(){
     firebase.auth().signOut();
 });*/
+})
 
 // Post de usuario  ========================================================================
 
-})
+var idtexto = 0; 
+$("#btn-send").click(function(){
+    var post = $("#postInput").val();
+
+    $("#texto").append("<section" + idtexto + ">" +
+    "<div id='icon-box' col s12 x12>"+
+    "<i id='icon-perfil' class='fas fa-user fa-6x orange-text'></i>"+
+    "<p class='name'>Carmencita Hernandez</p>"+ 
+    "</div>"+
+    "<div col s6 xl6>" + 
+    "<p class='post'>" + post + "</p>" + 
+    "</div>"+
+    "</section>");
+});
+
+$("#btn-photo").click(function(){
+    $("#texto").append("<div id='icon-box' col s2 x2>"+
+    "<i id='icon-perfil' class='fas fa-user fa-6x orange-text'></i>"+
+    "</div>"+
+    "<div col s10 x10>"+
+    "<p class='name'>Carmencita Hernandez</p>" + "</div>"+
+    "<img class='responsive-img img-game' src='assets/images/game.png' alt=''>");
+
+});    
