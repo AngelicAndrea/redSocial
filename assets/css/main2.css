@@ -1,11 +1,18 @@
 *{
 	margin:0;
 	padding: 0;
+
 }
 body{
 	background-color:#fff8e1 ;
 }
 .brand-logo img{
+
+     width: 5em;
+
+}
+img{
+
 	width: 5em;
 }
 .txt{
@@ -75,6 +82,73 @@ margin-top:3em;
 .post{
 	margin-left: 5%;
 }
+
 .img-game{
 	margin-left: 5%;
+}
+.circulo {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+}
+#first{
+     width: 100%;
+}
+.collection{
+     width: 100%;
+     margin-left: 45%;
+}
+.games-icon{
+     display: inline-block;
+     padding-right: 20%;
+}
+.game-name{
+     display: inline-block;
+}
+.badge span{
+     vertical-align: middle;
+}
+.material-icons{
+     top:4%;
+     color:#F68C1F;
+}
+.cardc{
+     background-color: #F68C1F;
+}
+.text-content{
+     color: #007468;
+     font-weight: bold;
+     text-shadow:1px 1px 1px #fff;
+}
+.card-action{
+     height: 30%;
+}
+.my-g{
+     font-weight: bold;    
+     text-shadow:1px 1px 1px #000;
+}
+.left{
+     font-weight: bold;
+}
+.plus{
+     width: 20%;
+     height: 20%;
+}
+.tarjeta{
+     width: 70%;
+}
+.find{
+     margin-left: 35%;
+     display: inline-block;
+}
+.buttons{
+     margin-left: 35%;
+}
+.click{
+     color: #000;
+     background-color: #fff;
+
 }
